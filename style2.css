@@ -3,8 +3,9 @@
     font-size: 15px;
   }
   body{
-    background-color: #3ea7bc;
-    
+    background-image: url(./image.jpg);
+    background-attachment: fixed;
+        
   }
   main{
     font-size: 20px;
@@ -58,8 +59,12 @@
   }
   section:nth-last-of-type(6){
     grid-area: f;
-    background: linear-gradient(180deg, black 35%, red 35%, red 65%,  yellow 65%, yellow
-    )
+    background: url(./image3.jpg), url(./image.jpg), 
+                url(./image.jpg),url(./image.jpg), 
+                url(./image.jpg);
+    background-repeat: no-repeat;
+    background-position: center, top right, top left, bottom right, bottom left;
+   
   }
   section:nth-last-of-type(7){
     grid-area: g;
@@ -67,9 +72,17 @@
   }
   section:nth-last-of-type(8){
     grid-area: h;
+    background: linear-gradient(180deg, black 35%, red 35%, red 65%,  yellow 65%, yellow
+    )
+    }
+  section:nth-last-of-type(9):hover{
+    grid-area: i;
+    background: url(./girlphone3.jpg);
+    opacity: 0.4;
+      /*  background-color: rgb(0, 0, 0, 0.843);
+    background-blend-mode: overlay; */
+    background-size: cover;
   }
-  section:nth-last-of-type(9){
-    grid-area: i;}
 }
 
 @media screen and (min-width: 720px){
@@ -225,8 +238,8 @@
   }
   section{
     background-color: rgb(17, 255, 124);
-    border: 5px ; 
-    border-color: white; 
+    border: 10px solid; 
+    border-color: black; 
    /*  height: 50px; 
     width: 50%; */
     /* margin-bottom: 2em;
