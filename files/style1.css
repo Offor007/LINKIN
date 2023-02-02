@@ -23,9 +23,6 @@ section{
   background-color: #00ffff;
     
 }
-.first{
-  background-color: rgb(15, 23, 68);
-}
 
 section:nth-last-of-type(1){
         grid-area: a;

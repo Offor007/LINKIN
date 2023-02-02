@@ -1,59 +1,262 @@
-html{
-  font-size: 15px;
-}
-body{
-  background-color: #3ea7bc;
+@media screen and (min-width: 400px){
+  html{
+    font-size: 15px;
+  }
+  body{
+    background-color: #3ea7bc;
+    
+  }
+  main{
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(9, 100px);
+    grid-template-areas: "a"
+                         "b"
+                         "c"
+                         "d"
+                         "e"
+                         "f"
+                         "g"
+                         "h"
+                         "i";
+                        
+    gap: 10px;
+  }
+  section{
+    background-color: rgb(17, 255, 124);
+   /*  height: 50px; 
+    width: 50%; */
+    /* margin-bottom: 2em;
+    margin-top: 10px;
+    margin-left: 2rem;
+    margin-right: 0.5rem; */
+   /*  margin:/*  10px auto; */
+  }
+  .first{
+    background-color: red;
+  }
+  .first{
+    grid-area: a;
+  }
+  section:nth-last-of-type(2){
+    grid-area: b;
+  }
+  section:nth-last-of-type(3){
+    grid-area: c;
+  }
+  section:nth-last-of-type(4){
+    grid-area: d;
+  }
+  section:nth-last-of-type(5){
+    grid-area: e;
+  }
+  section:nth-last-of-type(6){
+    grid-area: f;
+  }
+  section:nth-last-of-type(7){
+    grid-area: g;
+  }
+  section:nth-last-of-type(8){
+    grid-area: h;
+  }
+  section:nth-last-of-type(9){
+    grid-area: i;
+  }
   
 }
-main{
-  font-size: 20px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(5, 100px);
-  grid-template-areas: "a a b c"
-                       "a a d e"
-                       "g g f f"
-                       "h h f f"
-                       "i i i i";
-  gap: 10px;
+@media screen and (min-width: 720px){
+  html{
+    font-size: 15px;
+  }
+  body{
+    background-color: #3ea7bc;
+    
+  }
+  main{
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 100px);
+    grid-template-areas: "a a"
+                         "b c"
+                         "d e"
+                         "f g"
+                         "h i";
+                         
+                        
+                        
+    gap: 10px;
+  }
+  section{
+    background-color: rgb(17, 255, 124);
+   /*  height: 50px; 
+    width: 50%; */
+    /* margin-bottom: 2em;
+    margin-top: 10px;
+    margin-left: 2rem;
+    margin-right: 0.5rem; */
+   /*  margin:/*  10px auto; */
+  }
+  .first{
+    background-color: red;
+  }
+  .first{
+    grid-area: a;
+  }
+  section:nth-last-of-type(2){
+    grid-area: b;
+  }
+  section:nth-last-of-type(3){
+    grid-area: c;
+  }
+  section:nth-last-of-type(4){
+    grid-area: d;
+  }
+  section:nth-last-of-type(5){
+    grid-area: e;
+  }
+  section:nth-last-of-type(6){
+    grid-area: f;
+  }
+  section:nth-last-of-type(7){
+    grid-area: g;
+  }
+  section:nth-last-of-type(8){
+    grid-area: h;
+  }
+  section:nth-last-of-type(9){
+    grid-area: i;
+  }
 }
-section{
-  background-color: rgb(17, 255, 124);
- /*  height: 50px; 
-  width: 50%; */
-  /* margin-bottom: 2em;
-  margin-top: 10px;
-  margin-left: 2rem;
-  margin-right: 0.5rem; */
- /*  margin:/*  10px auto; */
+@media screen and (min-width: 800px){
+  html{
+    font-size: 15px;
+  }
+  body{
+    background-color: #3ea7bc;
+    
+  }
+  main{
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 100px);
+    grid-template-areas: "a a b c"
+                         "d d e e"
+                         "f f e e"
+                         "g g g g";
+                        
+    gap: 10px;
+  }
+  section{
+    background-color: rgb(17, 255, 124);
+   /*  height: 50px; 
+    width: 50%; */
+    /* margin-bottom: 2em;
+    margin-top: 10px;
+    margin-left: 2rem;
+    margin-right: 0.5rem; */
+   /*  margin:/*  10px auto; */
+  }
+  .first{
+    background-color: red;
+  }
+  .first{
+    grid-area: a;
+  }
+  section:nth-last-of-type(2){
+    grid-area: b;
+  }
+  section:nth-last-of-type(3){
+    grid-area: c;
+  }
+  section:nth-last-of-type(4){
+    grid-area: d;
+  }
+  section:nth-last-of-type(5){
+    grid-area: e;
+  }
+  section:nth-last-of-type(6){
+    grid-area: f;
+  }
+  section:nth-last-of-type(7){
+    grid-area: g;
+  }
+  section:nth-last-of-type(8){
+    grid-area: h;
+  }
+  section:nth-last-of-type(9){
+    grid-area: i;
+  }
+  
 }
-.first{
-  background-color: red;
-}
-.first{
-  grid-area: a;
-}
-section:nth-last-of-type(2){
-  grid-area: b;
-}
-section:nth-last-of-type(3){
-  grid-area: c;
-}
-section:nth-last-of-type(4){
-  grid-area: d;
-}
-section:nth-last-of-type(5){
-  grid-area: e;
-}
-section:nth-last-of-type(6){
-  grid-area: f;
-}
-section:nth-last-of-type(7){
-  grid-area: g;
-}
-section:nth-last-of-type(8){
-  grid-area: h;
-}
-section:nth-last-of-type(9){
-  grid-area: i;
+@media Print{
+  html{
+    font-size: 15px;
+  }
+  body{
+    background-color: transparent;
+    
+  }
+  main{
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(9, 100px);
+    grid-template-areas: "a"
+                         "b"
+                         "c"
+                         "d"
+                         "e"
+                         "f"
+                         "g"
+                         "h"
+                         "i";
+                        
+    gap: 10px;
+  }
+  section{
+    background-color: rgb(17, 255, 124);
+    border: 5px; 
+    border-color: white; 
+   /*  height: 50px; 
+    width: 50%; */
+    /* margin-bottom: 2em;
+    margin-top: 10px;
+    margin-left: 2rem;
+    margin-right: 0.5rem; */
+   /*  margin:/*  10px auto; */
+  }
+  .first{
+    background-color: red;
+  }
+  .first{
+    grid-area: a;
+  }
+  section:nth-last-of-type(2){
+    grid-area: b;
+  }
+  section:nth-last-of-type(3){
+    grid-area: c;
+  }
+  section:nth-last-of-type(4){
+    grid-area: d;
+  }
+  section:nth-last-of-type(5){
+    grid-area: e;
+  }
+  section:nth-last-of-type(6){
+    grid-area: f;
+  }
+  section:nth-last-of-type(7){
+    grid-area: g;
+  }
+  section:nth-last-of-type(8){
+    grid-area: h;
+  }
+  section:nth-last-of-type(9){
+    grid-area: i;
+  }
+  
 }
