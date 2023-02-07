@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+@media screen and (min-width: 400px) {
+  
+ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(219, 250, 215);
+ /*  padding: 1.5em; */
+  height: 3em;
+  align-items: left;
+  font-family: 'Roboto', sans-serif;
+  
+}
+li{
+  padding: auto;
+}
+
+nav{
+  position: fixed;
+  opacity: 98%;
+}
+
+main{
+  position: relative;
+  z-index: -1;
+  top: 3em;
+}
+
+
+h1,h2,h3{
+  font-family: 'Yellowtail',  cursive;
+
+}
+
+a{
+  padding: 1em 2em;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+a:hover{
+  background-color: black;
+  color: #fff;
+}
+p{
+  font-family: 'Dancing Script', cursive;
+}
+}
+@media screen and (min-width: 720px){
+ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: antiquewhite;
+  /* padding: 1.5em; */
+  height: 3em;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 98%;
+
+}
+
+main{
+  position: relative;
+  z-index: -1;
+  top: 3em;
+}
+
+
+h1,h2,h3{
+  font-family: 'Yellowtail',  cursive;
+
+}
+
+a{
+  padding: 1em 2em;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+a:hover{
+  background-color: black;
+  color: #fff;
+}
+p{
+  font-family: 'Dancing Script', cursive;
+}
+}
