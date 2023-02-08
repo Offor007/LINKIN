@@ -1,0 +1,105 @@
+
+   body{
+    background-color: rgba(2, 30, 48, 0.918);
+    width: 75%;
+    color: white;
+    text-justify: auto;
+        
+    }
+   main {
+    background-color: rgb(28, 31, 29);
+    width: 30%;
+    height: 100%;
+    margin: 0 auto;
+    border: 5px;  
+    margin-left: 50%;
+    margin-right: 50%;
+    border-radius: 2ch;
+        
+}
+ul{ list-style-type: none;}
+section{
+    text-transform: capitalize;
+    color: black;
+    background-color: #fff;
+    background-size: 70px;
+    padding: 20px 30px;
+    margin-bottom: 10px;
+    height: 130px;
+    border-radius: 2ch 2ch 0 35px;
+    font-size: large;
+}
+.social{
+    text-transform: capitalize;
+    color: black;
+    background-color: #fff;
+    background-size: 70px;
+    padding: 20px 30px;
+    margin-bottom: 10px;
+    border-radius: 0ch 35px 2ch 2ch;
+    font-size: medium;
+}
+.imp input{
+    display: block;
+    color: #fff;
+    width: 80%;
+    margin-bottom: 30px;
+    background-color: rgb(28, 31, 29);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(179, 179, 179);
+}
+input[type="button"]{
+    width: 75%;
+    text-transform: capitalize;
+    padding: 5px;
+    border-radius: ;
+    }
+ .ibox{
+        margin: 20px 0;
+
+    }
+button:hover{
+        background-color: rgb(63, 62, 62);
+         } 
+        aside{
+        background-color: rgba(4, 4, 34, 0.76);
+        margin-bottom: 5%;
+        margin-top: 5%;
+        margin-left: 50%;
+        margin-right: 50%;
+        width: 25%;
+        margin: 0 auto;
+        border-left: 5px;
+        }
+    .sign{
+    background-color: gray (200, 0, 0); 
+    color: black;
+    border:none;
+    height: 36px;
+    width: 300px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+    }
+    .sign2{
+        background-color: black; 
+        color: gray (200, 0, 0);
+        color: white; 
+        border:none;
+        height: 36px;
+        width: 300px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-right: 8px;
+        transition: opacity 0.15s;
+        }
+    
+.img{
+    background-image: url(image3.jpg);
+        margin-bottom: 5%;
+        margin-top: 0%;
+        margin-left: 50%;
+        margin-right: 50%;
+}
