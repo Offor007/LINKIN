@@ -1,4 +1,4 @@
-@media screen and (min-width: 400px){
+@media screen and (min-width: 250px){
   
   section{
     height: 320vh;
@@ -8,6 +8,11 @@
   a{
     color: #fff;
     text-decoration: none;
+    
+  }
+  a:hover{
+    background-color: black;
+    color: #fff;
   }
   section:first-of-type{
     background-color: rgba(0, 0, 0, 0.900);
@@ -458,5 +463,8 @@ section:nth-of-type(3){
 .sect3 span{
     border-bottom: 2px solid #E55;
 }
-
+a:hover{
+  background-color: black;
+  color: #fff;
   }
+}
