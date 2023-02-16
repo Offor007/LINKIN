@@ -1,0 +1,151 @@
+#navbar {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  gap: 10px;
+  left: 0;
+  padding: 1%;
+  width: 100%;
+  background: #E55;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  align-items: flex-start;
+}
+a{
+  margin-right: 5%;
+  font-size: 24px;
+  color: #181719;
+  text-decoration: none;
+}
+a:hover {
+  background: #181719;
+  color: #E55;
+  border-radius: 50%;
+  transform: rotate(-45deg);
+  cursor:grabbing;
+  }
+a:active{
+  transition: 0.25s;
+  
+}
+.nav-list {
+  display: flex;
+  margin-right: 2rem;
+}
+
+@media (max-width: 28.75em) {
+  .nav {
+    justify-content: center;
+  }
+
+  .nav-list {
+    margin: 0 1rem;
+  }
+}
+
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #E55#000;
+  background-image: linear-gradient(62deg, #075153 2%,  #3a3d40 100%);
+}
+.welcome-section h1{
+  color: linear-gradient(62deg, E55 20%, #181719 100%);;
+
+}
+
+.welcome-section > p {
+  font-size: 3rem;
+  font-weight: 200;
+  font-style: italic;
+  color: #fff;
+
+}
+span{
+  color:#E55;
+}
+
+
+
+.projects-section {
+  text-align: center;
+  padding: 10rem 2rem;
+  }
+@media (max-width: 28.75em) {
+  .projects-section-header {
+    font-size: 4rem;
+  }
+}
+.projects-section-header {
+  max-width: 640px;
+  margin: 0 auto 6rem auto;
+}
+
+.project {
+  background: ;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+}
+
+.project-title {
+  font-size: 2rem;
+  padding: 2rem 0.5rem;
+}
+
+.contact-section-header > h2 {
+  font-size: 6rem;
+}
+
+@media (max-width: 28.75em) {
+  .contact-section-header > h2 {
+    font-size: 4rem;
+  }
+}
+
+.contact-section-header > p {
+  text-align: center;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 980px;
+  margin-top: 4rem;
+  flex-wrap: wrap;
+}
+
+.contact-details {
+  font-size: 2.4rem;
+  text-shadow: 2px 2px 1px #1f1f1f;
+  transition: transform 0.3s ease-out;
+}
+
+.contact-details:hover {
+  transform: translateY(8px);
+}
+
+#way {
+  font-weight: 300;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+}
+
+#way > p {
+  margin: 2rem;
+}
+
+#way i {
+  vertical-align: middle;
+}
+
+@media (max-width: 28.75em) {
+  #way {
+    flex-direction: column;
+    text-align: center;
+  }
+}

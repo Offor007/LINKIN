@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey</title>
+  <link rel="stylesheet" href="survey.css">
+  <style>
+    *{
+      margin: 0%;
+      border: 0em;
+    }
+  </style>
+</head>
+<body>
+  
+   <section>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Continue to better your craft</p>
+   </section>
+    <form id="survey-form">
+      <ul>
+        <li><label id="name-label" text="name">Full Name</label>
+          <input type="text" name="Fullnam" id="name" placeholder="Full Name" required>
+      </li>
+        <li><label id="email-label" text="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="Email" required>
+  </li>
+        <li><label id="number-label" text="number">number</label>
+          <input type="number" name="number" id="number" placeholder="age" min="18" max="50">
+  </li>
+        <li><label for="best role">which option best discribe your role</label>
+          <select name="best role" id="dropdown"> 
+        <option value="select current role">select current role</option>
+      </select></li>
+        <li><label for="choice">would recommend of web to a friend</label></li>
+        <li><input type="radio" name="Definitely" id="Definitely" value="Definitely">
+          <input type="radio" name="Definitely" id="Definitely" value="Definitely">Definitely
+          <label for="Definitely">Definitely</label></li>
+        <li><input type="radio" name="maybe" id="Maybe" value="maybe">
+          <input type="radio" name="maybe" id="Maybe" value="maybe">Maybe
+          </li>
+        <li>
+          <input type="radio" name="not sure" id="not sure" value="not sure">
+        <input type="radio" name="not sure" id="not sure" value="not sure">not sure
+        <label for="not sure">Not sure</label>
+      </li>
+        <li>
+          <label for="best role">What is your favorite feature of freeCodeCamp?</label>
+    <select name="best role" id="dropdown"> 
+        </li>
+        <li><option value="select option">select on option</option>
+        </select>
+        </li>
+        <li><label for="checkbox">What would you like to see improved? (chech off that apply)</label>
+        </li>
+        <li><input type="checkbox" name="" id="" value="text">Front-end Projects</li>
+        <li><input type="checkbox" name="" id="" value="text">Back-end Projects</li>
+        <li><input type="checkbox" name="" id="" value="text">Data Visualization</li>
+        <li><input type="checkbox" name="" id="" value="text">Challenges</li>
+        <li><input type="checkbox" name="" id="" value="text">Open Source Community</li>
+        <li><input type="checkbox" name="" id="" value="text">Gitter help rooms</li>
+        <li><input type="checkbox" name="" id="" value="text">Videos</li>
+        <li><input type="checkbox" name="" id="" value="text">City</li>
+        <li><input type="checkbox" name="" id="" value="text">Wiki</li>
+        <li><input type="checkbox" name="" id="" value="text">Forum</li>
+        <li><input type="checkbox" name="" id="" value="text">Additional Course</li>
+      </ul>
+      
+      <textarea name="comment" id="text" cols="30" rows="10">Comments</textarea>
+      <button id="submit" type="submit">submit</button>
+  
+    </form>
+  
+</body>
+</html>
