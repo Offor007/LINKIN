@@ -1,36 +1,110 @@
+
 body{
   margin-left:30%;
   margin-right: 30%;
-  background-color: blueviolet;
-  border: 2px solid  gainsboro;
+  background-color: rgba(0, 0, 0, 0.800);
+  background-image: url(girlphone3.jpg);
+  background-blend-mode: overlay;  
   text-align: center;
-}
-form{
-  padding-bottom: 2px;
-  width: 240px;
-  height: auto;
-  background-color: rgb(100, 100, 129);
-  text-align: left;
-  padding-left: 5px;
+  padding: none;
 }
 #title{
-  color: #fff;
+  margin-top: 1.5em;
+  color: #c7c5c5;
+  font-size: 60px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #3e333e;
+}
+#title1{
+  z-index: -1;
+  margin-top: -1.15em;
+  color: #051b49;
+  font-size: 60px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #description{
+  background-color: #3e333e;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  color: #c7c5c5;
+  font-size: 16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: oblique;
+}
+#description1{
+  z-index: -1;
+  margin-top: -3em;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  color: #051b49;
+  font-size: 16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: oblique;
+}
+
+form{
+  font-size: 20px;
+  padding-bottom: 2px;
+  width: 100%;
+  height: auto;
+  background-color: #3e333e;
+  text-align: left;
+  
+}
+
+.info{
+  padding: 2%;
+  
+}
+
+.info input{
+  display: block;
+  padding: 1%;
+  outline: none;
+  width: 32em;
+  height: 3em;
+  border-radius: 4px;
+
+}
+.select{
+  padding: 2%;
+} 
+#dropdown{
+  display: block;
+  padding: 5%;
+  outline: none;
+  width: 31em;
+  height: 3em;
+  margin-left: 0.1em;
+  border-radius: 3px;
+
+}
+#text{
+  width: 35em;
+  height: 6em;
+  margin-left: 0.1em;
+  margin-left: 2em;
+  border-radius: 3px;
+
+}
+ul{
+  list-style-type: none;
   color: #fff;
 }
 
-#name{ 
-padding: 2px;
-border-radius: 5%;
+#submit{
+  width: 35em;
+  height: 2.5em;
+  margin-left: 0.1em;
+  border-radius: 3px;
+  background-color: rgb(7, 146, 88);
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 2em;
 
 }
-#email{
-padding:2px;
-}
-#number{
-padding: px;;
-}
-#dropdown{
-padding:2px;
+#submit:hover{
+  background-color: gray;
+  color: #ffff;
+  transition: 0.5s;
 }
